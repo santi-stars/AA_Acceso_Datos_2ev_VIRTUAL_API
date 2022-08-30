@@ -1,0 +1,20 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/order/([0-9]*)",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{  \"orderDate\": \"01-12-2022\",  \"description\": \"Reparación de la junta de la culata\",  \"client\": 6,  \"bike\": null}",
+        "jsonCompareMode": "STRICT"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "orders/putOrder-KO-400.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/client/([0-9]*)"
+  },
+  "response": {
+    "status": 204
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/order/([0-9]*)"
+  },
+  "response": {
+    "status": 204
+  }
+}

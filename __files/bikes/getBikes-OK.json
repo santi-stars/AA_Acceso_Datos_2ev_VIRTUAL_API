@@ -1,0 +1,40 @@
+[
+  {
+    "id": 66,
+    "brand": "Yamaha",
+    "model": "R6",
+    "license": "1231DXN",
+    "bikeImage": "1101011101000110100",
+    "client": [
+      {
+        "id": 6,
+        "name": "Santi",
+        "surname": "Ballestin",
+        "dni": "25473819P",
+        "vip": true,
+        "latitude": 0.40000000404382,
+        "longitude": 40.53737845859,
+        "clientImage": "1101011101000110100"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "brand": "Suzuki",
+    "model": "Bandit 600",
+    "license": "3847GHB",
+    "bikeImage": "1101111101000110100",
+    "client": [
+      {
+        "id": 33,
+        "name": "Santiago",
+        "surname": "Faci",
+        "dni": "38475629K",
+        "vip": true,
+        "latitude": 0.43456555577772,
+        "longitude": 41.53737845859,
+        "clientImage": "1101111101000110100"
+      }
+    ]
+  }
+]

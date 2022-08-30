@@ -1,0 +1,20 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/client/([0-9]*)",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{  \"name\": \"Santi\",  \"dni\": \"25473819P\",  \"vip\": true,  \"latitude\": 0.40000000404382,  \"longitude\": 40.53737845859,  \"clientImage\": \"1101011101000110100\"}",
+        "jsonCompareMode": "STRICT"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "clients/putClient-KO-400.json"
+  }
+}

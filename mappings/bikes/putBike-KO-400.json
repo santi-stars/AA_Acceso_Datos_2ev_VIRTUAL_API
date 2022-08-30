@@ -1,0 +1,20 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/bike/([0-9]*)",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{  \"brand\": \"Yamaha\",  \"model\": \"R6\",  \"license\": \"1231DXN\", \"bikeImage\": \"1101011101000110100\",  \"client\": null}",
+        "jsonCompareMode": "STRICT"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "bikes/putBike-KO-400.json"
+  }
+}
